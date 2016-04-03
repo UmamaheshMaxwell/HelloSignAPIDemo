@@ -1,0 +1,15 @@
+<div id="dvEmbeddedTemplate">
+<script type="text/javascript" src="https://s3.amazonaws.com/cdn.hellosign.com/1.21.0/js/embedded.js"></script>
+<script type="text/javascript">
+    HelloSign.init("ad00a6dc8ff93743a45ad90c150d1453");
+    HelloSign.open({
+        url: "https://www.hellosign.com/editor/embeddedTemplate?token=73148a9f7a7ef07ad9ca37fde09abe4b&root_snapshot_guids%5B0%5D=5d6f9605dd99d4703213d77c381fe0171a665082&snapshot_access_guids%5B0%5D=acb5697f&guid=e3a54cc1fc2b1870cd28fc4031fe7f065f1befa6",     
+        allowCancel: true,
+        skipDomainVerification: true,
+        messageListener: function(eventData) {
+            alert("HelloSign event received");
+        }    
+    });
+</script>  
+</div>
+

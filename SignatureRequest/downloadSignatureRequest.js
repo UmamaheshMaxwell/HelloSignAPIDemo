@@ -1,4 +1,4 @@
-var config = require('../config/config.js')
+var config = require('../config/dev.js')
 var hellosign = require('hellosign-sdk')({key: config.HELLOSIGN_APIKEY});
 
 hellosign.signatureRequest.download('5da6373e7ac93935ecc3b239758d5ff6a4b45844', {file_type: 'zip'}, function(err, response){

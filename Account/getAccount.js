@@ -1,4 +1,4 @@
-var config = require('../config/config.js')
+var config = require('../config/dev.js')
 var hellosign = require('hellosign-sdk')({key: config.HELLOSIGN_APIKEY});
 
 //Get Account settings
